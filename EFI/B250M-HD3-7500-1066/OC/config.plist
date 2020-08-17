@@ -7,18 +7,18 @@
 		<key>Add</key>
 		<array>
 			<dict>
-				<key>Enabled</key>
-				<true/>
 				<key>Comment</key>
 				<string>SSDT-EC.aml</string>
+				<key>Enabled</key>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-EC.aml</string>
 			</dict>
 			<dict>
-				<key>Enabled</key>
-				<true/>
 				<key>Comment</key>
 				<string>SSDT-PLUG.aml</string>
+				<key>Enabled</key>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-PLUG.aml</string>
 			</dict>
@@ -170,8 +170,6 @@
 			<false/>
 			<key>ProvideCustomSlide</key>
 			<true/>
-			<key>ProvideMaxSlide</key>
-			<integer>0</integer>
 			<key>RebuildAppleMemoryMap</key>
 			<false/>
 			<key>SetupVirtualMap</key>
@@ -186,7 +184,7 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>layout-id</key>
 				<data>AQAAAA==</data>
@@ -205,82 +203,114 @@
 		<key>Add</key>
 		<array>
 			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/Lilu</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VirtualSMC</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AppleALC</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
 				<key>BundlePath</key>
 				<string>RealtekRTL8111.kext</string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/RealtekRTL8111</string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/RealtekRTL8111</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/WhateverGreen</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>CPUFriend.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/CPUFriend</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>CPUFriendDataProvider.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -481,9 +511,9 @@
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
 			<key>AppleXcpmForceBoost</key>
@@ -584,7 +614,7 @@
 			<key>AuthRestart</key>
 			<false/>
 			<key>BootProtect</key>
-			<string></string>
+			<string>None</string>
 			<key>ExposeSensitiveData</key>
 			<integer>6</integer>
 			<key>HaltLevel</key>
@@ -601,12 +631,12 @@
 				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Name</key>
-				<string>BootKicker.efi</string>
 				<key>Comment</key>
 				<string>BootKicker.efi</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Name</key>
+				<string>BootKicker.efi</string>
 				<key>Path</key>
 				<string>BootKicker.efi</string>
 			</dict>
@@ -615,12 +645,12 @@
 				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Name</key>
-				<string>ChipTune.efi</string>
 				<key>Comment</key>
 				<string>ChipTune.efi</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Name</key>
+				<string>ChipTune.efi</string>
 				<key>Path</key>
 				<string>ChipTune.efi</string>
 			</dict>
@@ -629,12 +659,12 @@
 				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Name</key>
-				<string>CleanNvram.efi</string>
 				<key>Comment</key>
 				<string>CleanNvram.efi</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Name</key>
+				<string>CleanNvram.efi</string>
 				<key>Path</key>
 				<string>CleanNvram.efi</string>
 			</dict>
@@ -643,12 +673,12 @@
 				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Name</key>
-				<string>GopStop.efi</string>
 				<key>Comment</key>
 				<string>GopStop.efi</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Name</key>
+				<string>GopStop.efi</string>
 				<key>Path</key>
 				<string>GopStop.efi</string>
 			</dict>
@@ -657,12 +687,12 @@
 				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Name</key>
-				<string>HdaCodecDump.efi</string>
 				<key>Comment</key>
 				<string>HdaCodecDump.efi</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Name</key>
+				<string>HdaCodecDump.efi</string>
 				<key>Path</key>
 				<string>HdaCodecDump.efi</string>
 			</dict>
@@ -671,12 +701,12 @@
 				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Name</key>
-				<string>KeyTester.efi</string>
 				<key>Comment</key>
 				<string>KeyTester.efi</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Name</key>
+				<string>KeyTester.efi</string>
 				<key>Path</key>
 				<string>KeyTester.efi</string>
 			</dict>
@@ -685,12 +715,12 @@
 				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Name</key>
-				<string>MmapDump.efi</string>
 				<key>Comment</key>
 				<string>MmapDump.efi</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Name</key>
+				<string>MmapDump.efi</string>
 				<key>Path</key>
 				<string>MmapDump.efi</string>
 			</dict>
@@ -699,12 +729,12 @@
 				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Name</key>
-				<string>OpenControl.efi</string>
 				<key>Comment</key>
 				<string>OpenControl.efi</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Name</key>
+				<string>OpenControl.efi</string>
 				<key>Path</key>
 				<string>OpenControl.efi</string>
 			</dict>
@@ -713,12 +743,12 @@
 				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Name</key>
-				<string>OpenShell.efi</string>
 				<key>Comment</key>
 				<string>OpenShell.efi</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Name</key>
+				<string>OpenShell.efi</string>
 				<key>Path</key>
 				<string>OpenShell.efi</string>
 			</dict>
@@ -727,12 +757,12 @@
 				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Name</key>
-				<string>ResetSystem.efi</string>
 				<key>Comment</key>
 				<string>ResetSystem.efi</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Name</key>
+				<string>ResetSystem.efi</string>
 				<key>Path</key>
 				<string>ResetSystem.efi</string>
 			</dict>
@@ -741,12 +771,12 @@
 				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Name</key>
-				<string>RtcRw.efi</string>
 				<key>Comment</key>
 				<string>RtcRw.efi</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Name</key>
+				<string>RtcRw.efi</string>
 				<key>Path</key>
 				<string>RtcRw.efi</string>
 			</dict>
@@ -755,12 +785,12 @@
 				<string></string>
 				<key>Auxiliary</key>
 				<true/>
-				<key>Name</key>
-				<string>VerifyMsrE2.efi</string>
 				<key>Comment</key>
 				<string>VerifyMsrE2.efi</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Name</key>
+				<string>VerifyMsrE2.efi</string>
 				<key>Path</key>
 				<string>VerifyMsrE2.efi</string>
 			</dict>
@@ -787,7 +817,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=1 nvda_drv_vrl=1</string>
+				<string>-v keepsyms=1 debug=0x100 nvda_drv_vrl=1</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
