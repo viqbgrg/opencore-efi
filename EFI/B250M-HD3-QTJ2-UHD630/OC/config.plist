@@ -282,11 +282,19 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>model</key>
-				<string>Intel CoffeeLake-H GT2 [UHD Graphics 630]</string>
+				<string>UHD Graphics 630</string>
 				<key>enable-hdmi-dividers-fix</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
+				<key>enable-hdmi-dividers-fix - 2</key>
+				<data>AQAAAA==</data>
+				<key>enable-hdmi20</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-patch-enable - 2</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAAgA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1151,7 +1159,7 @@
 				<key>boot-args</key>
 				<string>-v debug=0x100 keepsyms=1 alcid=1</string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>/wcAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>emgtSGFuczoyNTI=</data>
 				<key>run-efi-updater</key>
